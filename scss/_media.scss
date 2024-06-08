@@ -1,0 +1,92 @@
+@media (max-width:776px) {
+    .search-user__input{
+        padding-right: 200px;
+    }
+    .container{
+        max-width: 700px;
+    }
+    .result{
+        transform: translateX(-60px) translateY(10px);
+    }
+    .search-user{
+
+        .search-btn{
+            transform: translateX(-60px);
+        }
+    }
+    .blogs{
+        transform: translateX(-100px);
+    }
+}
+@media (max-width:705px) {
+    .search-user__input{
+        padding-right: 220px;
+    }
+    .result{
+        transform: translateX(-130px) translateY(10px);
+    }
+    .search-user{
+        .search-btn{
+            transform: translateX(-150px);
+        }
+    }
+    .card{
+        padding-right: 60px;
+    }
+
+}
+@media (max-width:615px) {
+    .result{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+    }
+    .search-user{
+        &__input{
+            height: 60px;
+            @include font(400,14,1.3);
+            position: relative;
+            
+        }
+        .search-btn{
+            width: 84px;
+            height: 46px;
+            margin-top: 5px;
+            margin-left: -60px  ;
+        }
+    }
+
+    .info{
+        transform: translateX(-70px);
+    }
+    .user__fullname{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .info__main{
+        width: 280px;
+        padding: auto;
+        gap: 15px;
+        display: flex;
+        justify-content: space-between;
+        &-repos{
+            width: 80px;
+            height: 48px;
+        }
+    }
+}
+@media (max-width:530px) {
+    .search-user__input{
+        padding-right: 100px;
+    }
+    .result{
+        position: relative;
+        top: -1000px;
+        left: 50%;
+
+    }
+    .blogs{
+        transform: translateX(-130px);
+    }
+}

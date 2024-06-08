@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// $title-color:rgba(105, 124, 154, 1);
+// $second-color:rgba(43, 52, 66, 1);
+
+:root {
+    --title-color: rgba(105, 124, 154, 1);
+    --second-color: rgba(43, 52, 66, 1);
+    --red-color:red;
+}
+$title-color:var(--title-color);
+$second-color:var(--second-color);
+$red:var(--red-color);

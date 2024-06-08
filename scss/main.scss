@@ -1,0 +1,24 @@
+@import "./var";
+@import "./mixins";
+@import "./page/index";
+@import "./media";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono";
+}
+.container{
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+    max-width: 770px !important;
+    height: 100vh;
+}
+.border{
+    border-radius: 50%;
+}
+body{
+    padding-top: 144px;
+}
